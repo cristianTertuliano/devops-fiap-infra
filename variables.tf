@@ -1,6 +1,7 @@
 variable "project_name" {
   description = "GCP Project name"
   type        = string
+  default     = "devopsfiap"
 }
 
 variable "region" {
